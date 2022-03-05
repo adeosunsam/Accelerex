@@ -17,27 +17,28 @@ public static class OpenHourQuery
     {
         public async Task<Dictionary<string, string>> Handle(Command request, CancellationToken cancellationToken)
         {
+            Dictionary<string, string> output = new();
+            string? getTime = string.Empty;
+
+            List<ICollection<OpenHours>> queries = new()
+            {
+                request.Monday,
+                request.Tuesday,
+                request.Wednesday,
+                request.Thursday,
+                request.Friday,
+                request.Saturday,
+                request.Sunday
+            };
+
+            var sortQueries = SortJsonInput(queries);
+
             return await Task.Run(() =>
             {
-                Dictionary<string, string> output = new();
-                string? getTime = string.Empty;
-
-                List<ICollection<OpenHours>> queries = new()
-                {
-                    request.Monday,
-                    request.Tuesday,
-                    request.Wednesday,
-                    request.Thursday,
-                    request.Friday,
-                    request.Saturday,
-                    request.Sunday
-                };
-
-                var sortQueries = SortJsonInput(queries);
                 for (int i = 0; i < sortQueries.Count; i++)
                 {
                     List<OpenHours?> getOpenHours = sortQueries[i].ToList();
-                    getTime = (getOpenHours.Count() != 0) 
+                    getTime = (getOpenHours.Count != 0) 
                         ? PrintMultipleOpening(getOpenHours)
                         : "Closed";
                     output.Add(DaysofWeek.WeekDays(i), getTime);
