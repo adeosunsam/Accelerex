@@ -1,0 +1,15 @@
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\bin\Debug\net6.0\AccelerexTaskTwo.exe
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\bin\Debug\net6.0\AccelerexTaskTwo.deps.json
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\bin\Debug\net6.0\AccelerexTaskTwo.runtimeconfig.json
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\bin\Debug\net6.0\AccelerexTaskTwo.dll
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\bin\Debug\net6.0\AccelerexTaskTwo.pdb
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.csproj.AssemblyReference.cache
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.AssemblyInfoInputs.cache
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.AssemblyInfo.cs
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.csproj.CoreCompileInputs.cache
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.dll
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\refint\AccelerexTaskTwo.dll
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.pdb
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\AccelerexTaskTwo.genruntimeconfig.cache
+C:\Users\sadeosun\source\repos\AccelerexTask\AccelerexTaskTwo\obj\Debug\net6.0\ref\AccelerexTaskTwo.dll
